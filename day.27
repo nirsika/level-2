@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niru</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 sticky-top">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">First</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">Second</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >Dropdown</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#scrollspyHeading3">Third</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#scrollspyHeading4">Fourth</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="#scrollspyHeading5">Fifth</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-offset="0"
+      class="scrollspy-example"
+      tabindex="0"
+    >
+      <h4 id="scrollspyHeading1">First heading</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias labore
+        voluptas nisi repudiandae! Nihil maiores, velit alias non repellendus
+        dolorem dolore deleniti eius earum ratione fuga sit quos rem suscipit
+        natus eum quasi sequi nam quisquam corrupti nulla perferendis laboriosam
+        maxime sint! Vitae aliquam sed accusantium perferendis maiores quaerat
+        iste harum atque adipisci quos officia nisi id quo sint corporis non,
+        animi facere, dolore possimus illum natus autem ullam deleniti. Ut ad
+        suscipit, tempore asperiores, fugit sint praesentium excepturi harum
+        nisi eius beatae natus eum fugiat deleniti vel velit voluptas mollitia
+        tenetur rerum. Consequuntur, eveniet voluptates molestiae facere
+        accusantium animi.
+      </p>
+      <h4 id="scrollspyHeading2">Second heading</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illum
+        consectetur fugiat velit, expedita asperiores? Corrupti dicta expedita
+        nisi in odit porro consequuntur quo iste, alias, optio rem molestias
+        quis placeat. Illo quasi quae debitis repellat commodi, voluptates
+        adipisci rerum id reiciendis autem itaque, harum inventore sunt ex ad
+        laborum voluptate. Animi ex sint, facilis fugit obcaecati, corporis
+        pariatur minima, quae molestias reiciendis iste quo placeat. Possimus,
+        nam. Eaque quae, esse ipsum debitis facere ex exercitationem animi?
+        Maiores necessitatibus labore iste repellendus? Laudantium sequi,
+        maiores recusandae nemo sed beatae eos odio eum exercitationem sit
+        voluptate libero minima placeat adipisci quia voluptates veniam facere.
+        Tempore sapiente quos repudiandae vero veniam unde illo magnam,
+        perferendis debitis exercitationem officia necessitatibus odio. Sequi
+        esse cum minus corrupti rem perspiciatis, vel velit nobis nemo magni
+        aliquid voluptatem eius ab odio ipsum quis autem. Nobis quo, laudantium
+        sequi ratione deleniti expedita quaerat odit optio recusandae quos
+        similique nihil neque quisquam dicta. Mollitia ut iure aliquam magnam
+        ratione nisi repellendus accusantium harum ipsum dignissimos earum
+        doloribus voluptatibus ducimus, optio ex officia eius minima in, ad
+        possimus! Quibusdam quod magni facere expedita officia, et error tempora
+        rem quo? Assumenda enim iste reprehenderit tempore at minus, nam dolorum
+        veritatis necessitatibus praesentium ipsa quod, laborum corporis illum
+        repellendus! Impedit hic error vel molestiae corporis voluptatibus
+        minima modi fugiat. Assumenda, harum officiis illum temporibus tempore
+        eius. Accusantium aperiam possimus ratione aliquam, itaque sed optio sit
+        dignissimos doloribus facere inventore repellat sequi nobis temporibus
+        nesciunt autem aspernatur quam eum consectetur nemo odio?
+      </p>
+      <h4 id="scrollspyHeading3">Third heading</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quae
+        ipsum molestias similique exercitationem repudiandae soluta cum ullam!
+        Consequatur optio nihil perspiciatis impedit numquam, quam, veritatis,
+        eaque inventore assumenda ex repellat dignissimos est velit pariatur
+        quisquam soluta quas eum dolorem earum doloremque corrupti odio quod
+        laboriosam. Rerum exercitationem sunt vero accusamus dolore mollitia!
+        Eos animi vitae illo earum esse sint ad quisquam possimus voluptas unde
+        consectetur placeat, tempora dicta delectus eius mollitia. Incidunt,
+        repudiandae? Ipsam quod in eos exercitationem suscipit sint quisquam
+        assumenda, impedit dolorem mollitia sed eius consequuntur blanditiis
+        quas molestias obcaecati vero. Consequuntur eveniet voluptas temporibus
+        magni optio accusamus odit amet dignissimos ex nostrum voluptate
+        nesciunt velit quibusdam quas quis, nulla, ratione maxime, blanditiis
+        laudantium eius nihil. Pariatur optio culpa numquam voluptatum aliquid
+        velit obcaecati quas maiores voluptatibus fugiat quae odio ex dolor
+        nulla iure, natus totam repellendus accusamus placeat voluptates.
+        Explicabo doloremque eligendi repellat illum veniam, quam officiis vitae
+        sed inventore dicta officia? Facere consequatur dolorem voluptates
+        laborum vitae mollitia error perferendis officia quibusdam dolores!
+        Quibusdam, eum et. Explicabo dolore dicta pariatur minus et sapiente
+        debitis magni rem, accusamus unde eveniet beatae eius qui quisquam
+        deserunt assumenda repudiandae odio tempore adipisci repellat, sint
+        dolor. Est minus in soluta mollitia natus laborum officia pariatur rerum
+        illo vero amet necessitatibus sequi magnam minima placeat repellat
+        maxime obcaecati sapiente ab adipisci, repudiandae commodi omnis modi?
+        Unde voluptas aliquam labore soluta illo quasi minima tenetur vero
+        fugiat iste ratione, illum quos recusandae minus laboriosam culpa,
+        possimus cumque, deserunt temporibus et eligendi natus nisi. Soluta
+        porro ipsum natus velit ullam dolorum ex corporis deserunt maxime,
+        laborum expedita consequuntur libero nemo nisi reiciendis? Ratione,
+        quasi quam. Minima, harum quaerat. Odit ut facilis repellat dignissimos
+        quia error exercitationem minima perferendis consectetur vero asperiores
+        earum maxime quam commodi ex cum, esse, illo ducimus, ipsam nam?
+      </p>
+      <h4 id="scrollspyHeading4">Fourth heading</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui maxime
+        quas impedit minima doloremque enim perferendis magni molestias quidem
+        illum veniam omnis vero quos, eligendi, rem deserunt delectus
+        exercitationem repudiandae fuga error placeat commodi quis. Rem
+        voluptates consectetur animi. Doloremque at molestias officia placeat
+        veritatis earum cum veniam reprehenderit ipsum eum fugiat laborum
+        possimus delectus quod ut, fuga officiis consequatur. Dolor cumque error
+        cum, quasi ab at modi provident ratione? Nulla praesentium maxime,
+        dolores ea, illum tenetur quo nesciunt iste distinctio natus, a
+        accusantium animi impedit delectus quos facilis voluptatum tempora
+        dolorum? Optio aperiam perferendis cum nisi voluptatum nemo quam velit
+        incidunt harum recusandae? Nemo numquam repudiandae, dignissimos officia
+        hic vitae sit eaque quia dolor laboriosam nulla ducimus quas
+        reprehenderit voluptates accusantium ea voluptate ad aut earum,
+        repellendus aperiam vel. Voluptatum eligendi officia quo nemo impedit
+        enim atque? Nemo cumque animi incidunt accusamus, ipsa recusandae
+        ducimus vero. Cumque doloribus placeat dolores autem magnam in quidem
+        ipsum recusandae atque eveniet animi tempore natus perferendis officiis
+        esse corrupti deleniti, rerum itaque nemo a exercitationem numquam quae.
+        Nulla et sit cumque voluptatibus minima, deserunt harum facilis omnis
+        quia possimus ullam consectetur voluptate quas sunt maxime. Repudiandae
+        quisquam a, molestias at animi error provident.
+      </p>
+      <h4 id="scrollspyHeading5">Fifth heading</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga labore
+        impedit voluptatem rerum ex exercitationem quis eos velit magnam, ut
+        iste dolorum, repudiandae ipsa. Vero sed eveniet dicta debitis iste
+        commodi accusantium culpa tempore repudiandae repellendus magnam, id
+        alias quos. Quos sit, delectus beatae commodi aperiam magnam! At,
+        deserunt quisquam ad quia pariatur dolor saepe. Nisi quibusdam omnis et
+        provident perferendis necessitatibus soluta est, quo assumenda nam
+        facilis commodi delectus aperiam ex fugit illo? Eaque rem earum,
+        aperiam, illum placeat quasi, quibusdam officia a inventore totam
+        possimus nesciunt iste? Saepe, quaerat exercitationem pariatur animi
+        tempore error dicta. Rem deserunt corrupti saepe maiores praesentium
+        odit aliquam facilis neque corporis consectetur, id laudantium, illum
+        iste tempora modi sapiente impedit. Non illo, esse eaque, atque eligendi
+        ducimus voluptate optio minima, impedit quidem repudiandae et
+        distinctio. Error nobis debitis numquam qui vitae illo molestias id
+        inventore, labore commodi ratione impedit, placeat perferendis corporis
+        odit!
+      </p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
