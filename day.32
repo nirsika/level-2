@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niru</title>
+    <style>
+        *{
+            background-color: rgb(226, 189, 217) !important;
+        }
+        h1{
+            color: rgb(52, 10, 107);
+        }
+        h2{
+            color: rgb(30, 64, 133);
+        }
+        h4{
+            color: rgb(83, 94, 247);
+        }
+        h3{
+            color: blue;
+        }
+    </style> 
+</head>
+<body>
+    <h1>Type Of </h1>
+    <script>
+        let a="Nirsi";
+        let b="6";
+        let c="10";
+        document.write(typeof(a));
+        document.write("<br>");
+        document.write(parseInt(b)+(parseInt(c)));
+    </script>
+        <br>
+        <hr>
+    <h2>Coalescing</h2>
+    <script>
+        let x=10;
+        let y;
+        y=y ?? 2;
+        document.write(x ?? 5);
+        document.write("<br>");
+        document.write(x/y);
+    </script>
+    <br>
+    <hr>
+    <h2>If Else</h2>
+    <script>
+       let niru=false;
+       if(!niru){
+       document.write("niru ready to give presantation by tomorrow");
+    }
+    else{
+        document.write("she is not")
+    }
+</script>
+<br>
+<hr>
+<h4>Multiple If</h4>
+<script>
+    
+    let kiru=65;
+    if (kiru>70){
+        document.write("kiru is above 70");
+    }
+    else if(kiru <70 && kiru >50){
+        document.write("kiru in second stage")
+    }
+    else{
+        document.write("kiru in third stage")
+    }
+    document.write("<br>");
+    document.write("after if condition")
+    </script>
+    <br>
+    <hr>
+    <h2>For loop</h2>
+    <h3>1</h3>
+    <script>
+         let fruits =["Mango","Banana","Apple","PineApple"];
+         for (let n = 0; n < fruits.length; n++) {
+              document.write(fruits[n] + "<br>");
+      }
+               
+    </script>
+    <h3>2</h3>
+    <script>
+        let foods =["Rice","Kottu","Idly","Biriyany"];
+        for (let m = 0; m < foods.length; m++){
+            document.write(foods[m] + "<br>")
+        }
+    </script>
+
+</body>
+</html>
