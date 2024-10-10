@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niru</title>
+    <style>
+        *{
+            background-color: rgb(228, 181, 200) !important;
+        }
+        h1{
+            color: brown;
+        }
+        
+    </style> 
+</head>
+<body>
+    
+    <h1>Calculator</h1>
+    <input type="number" id="input1" placeholder="Enter number 1">
+    <input type="number" id="input2" placeholder="Enter number 2">
+    <button id="result">Result</button>
+    <br>
+    <br>
+    
+    <button id="minus" onclick="subtraction()">-</button>
+    <button id="plus" onclick="addition()">+</button>
+    <button id="multiply" onclick="multiplication()">*</button>
+    <button id="divide" onclick="division()">/</button>
+
+    
+    <script>
+        function addition() {
+            let num1 = parseFloat(document.getElementById('input1').value); 
+            let num2 = parseFloat(document.getElementById('input2').value);
+            document.getElementById('result').innerHTML ="result:"+ (num1 + num2);
+        }
+
+        function subtraction() {
+            let num1 = parseFloat(document.getElementById('input1').value);
+            let num2 = parseFloat(document.getElementById('input2').value);
+            document.getElementById('result').innerHTML = "result:"+ (num1 - num2);
+        }
+
+        function multiplication() {
+            let num1 = parseFloat(document.getElementById('input1').value);
+            let num2 = parseFloat(document.getElementById('input2').value);
+            document.getElementById('result').innerHTML ="result:" + (num1 * num2);
+        }
+
+        function division() {
+            let num1 = parseFloat(document.getElementById('input1').value);
+            let num2 = parseFloat(document.getElementById('input2').value);
+            if (num2 === 0) {
+                document.getElementById('result').innerHTML ="result: Cannot divide by zero";
+            } else {
+                document.getElementById('result').innerHTML ="result:" + (num1 / num2);
+            }
+        }
+    
+    </script>
+</body>
+</html>
