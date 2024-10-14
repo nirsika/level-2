@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niru</title>
+</head>
+<body>
+    <h1>JavaScript Array</h1>
+    <input type="text" id="adding"/>
+    <br />
+    <button onclick="addmethod()">Add</button>
+         <p id="niru"></p>
+         <p id="reverse"></p>
+      <script>
+        const Names = [] ;
+        function addmethod(){
+            let a=
+            document.getElementById("adding").value;
+                console.log(a);
+                Names.push(a);
+                document.getElementById("niru").innerHTML=Names;
+        }
+      </script>   
+      <script>
+          const Numbers =[1,9,2,8,3,7,4,6,5];
+                Numbers.sort();
+                Numbers.reverse();
+                document.getElementById("reverse").innerHTML=Numbers;
+      </script>
+</body>
+</html>
