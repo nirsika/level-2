@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+ 
+
+header {
+    background-color: #a6cef5;
+    color: rgb(245, 43, 7);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 1000px;
+    width: 100%;
+  }
+.header-text{
+    position: absolute;
+    left: 0;
+    margin-left: 250px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:underline;
+  }
+  .header-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .navbar {
+    padding: 20px 500px;
+  }
+
+  .nav-link {
+    color: #f8f9fa;
+    transition: color 0.3s;
+    float: left;
+  }
+
+  .nav-link:hover {
+    color: #ffc107;
+  }
+
+main {
+    padding: 20px;
+}
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    background: url("BUYNEST.png");
+    border-radius: 50%;
+    background-size: cover;
+    float: left;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0;
+  }
+
+.about-section, .contact-section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+   
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #222;
+    color: white;
+}

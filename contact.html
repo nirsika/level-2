@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBX44OdFHILnAm-FSHP-YKts0Pp2htTciIZA&s"
+                        style="height: 80px; margin:10px; position: absolute;left:0; top: 0;">
+                </a>
+                <h1 class="header-text">BUY NEST</h1>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="index1.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                </li>
+
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, feel free to contact us through the following channels:</p>
+            <ul>
+                <li>Hotline: +94 112886544, +94 184662022</li>
+                <li>Email: <a href="mailto:buynest12@gmail.com">buynest12@gmail.com</a></li>
+                <li>Address: No.42, Karadipokku, Kilinochchi, Sri Lanka</li>
+            </ul>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 BuyNest. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
